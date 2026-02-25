@@ -4,6 +4,7 @@
 Financed & Facilitated Emissions Tool - https://github.com/pranav-yathiraj/PCAF-Project/blob/main/Financed_Facilitated_Emissions_Tool.xlsx
 
 The Tool follows the PCAF Standards https://carbonaccountingfinancials.com/standard
+
 It also references the CEDA Emissions Database https://watershed.com/solutions/ceda
 
 Project Overview
