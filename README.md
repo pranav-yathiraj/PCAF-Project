@@ -1,16 +1,19 @@
 # PCAF-Projects
  
 
-Financed & Facilitated Emissions Tool - https://github.com/pranav-yathiraj/PCAF-Project/blob/main/Financed_Facilitated_Emissions_Tool.xlsx
-
-The Tool follows the PCAF Standards https://carbonaccountingfinancials.com/standard
-
-It also references the CEDA Emissions Database https://watershed.com/solutions/ceda
-
+Financed & Facilitated Emissions Tool - [Link](Financed_Facilitated_Emissions_Tools.xlsx)
+<br/>
+The Tool follows the [PCAF Standards](https://carbonaccountingfinancials.com/en/standard)
+<br/>
+It also references the [CEDA Emissions Database](https://carbonaccountingfinancials.com/en/standard)
+<br/>
+<br/>
 Project Overview
 
-This project simulates a $616B global bank portfolio to analyze carbon exposure across both lending and capital markets activities. Using PCAF (Partnership for Carbon Accounting Financials) standards, I developed an end-to-end tool to quantify and disclose "On-Balance Sheet" emissions (Lending/Investments) and "Off-Balance Sheet" emissions (Underwriting/Facilitation). The simulated portfolio was created using Gemini Flash 3. The prompt used is in the Prompt Used.md file. Refinements to the portfolio, and calculation methods used to derive the required data for the portfolio is in the Portfolio Methodology.docx file
+This project simulates a $616B global bank portfolio to analyze carbon exposure across both lending and capital markets activities. Using PCAF (Partnership for Carbon Accounting Financials) standards, I developed an end-to-end tool to quantify and disclose "On-Balance Sheet" emissions (Lending/Investments) and "Off-Balance Sheet" emissions (Underwriting/Facilitation). The simulated portfolio was created using Gemini Flash 3. The prompt used is in the [Prompt Used](Prompt%20Used.md) file. Refinements to the portfolio, and calculation methods used to derive the required data for the portfolio is in the [Technical Appendix](Technical%20Appendix.docx) file
 
+<br/>
+<br/>
 Key Features
 
 1. Dual-Scope GHG Accounting:
@@ -23,8 +26,8 @@ Key Features
 
 4. Dynamic Executive Dashboard: Automated visuals tracking sector-wise intensity, capital utilization, and transition risk hotspots.
 
-
-
+<br/>
+<br/>
 Tool Architecture
 
     
@@ -40,12 +43,13 @@ Tool Architecture
 
     06_Technical_Appendix: Proxy-based estimation calcualations
 
-
+<br/>
+<br/>
 
 Methodology & Assumptions
 
-Normalization: All WACI metrics are reported in tCO2​e/$1M to align with international financial reporting standards.
+1. Normalization: All WACI metrics are reported in tCO2​e/$1M to align with international financial reporting standards.
 
-Prudential Approach: The tool assumes a 100% drawdown scenario for committed lines to stress-test the bank's Net Zero alignment.
+2. Prudential Approach: The tool assumes a 100% drawdown scenario for committed lines to stress-test the bank's Net Zero alignment.
 
-Audit Trail: Every estimation relies on the Technical Appendix, ensuring that proxy-based "Score 4/5" data is transparently disclosed.
+3. Audit Trail: Every estimation relies on the Technical Appendix, ensuring that proxy-based "Score 4/5" data is transparently disclosed.
