@@ -1,7 +1,7 @@
 # PCAF-Projects
  
 
-Financed & Facilitated Emissions Tool - [Link](Financed_Facilitated_Emissions_Tools.xlsx)
+Financed & Facilitated Emissions Tool - [Link](Financed_Facilitated_Emissions_Tool.xlsx)
 <br/>
 The Tool follows the [PCAF Standards](https://carbonaccountingfinancials.com/en/standard)
 <br/>
