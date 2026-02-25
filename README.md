@@ -9,7 +9,7 @@ It also references the CEDA Emissions Database https://watershed.com/solutions/c
 
 Project Overview
 
-This project simulates a $616B global bank portfolio to analyze carbon exposure across both lending and capital markets activities. Using PCAF (Partnership for Carbon Accounting Financials) standards, I developed an end-to-end tool to quantify and disclose "On-Balance Sheet" emissions (Lending/Investments) and "Off-Balance Sheet" emissions (Underwriting/Facilitation).
+This project simulates a $616B global bank portfolio to analyze carbon exposure across both lending and capital markets activities. Using PCAF (Partnership for Carbon Accounting Financials) standards, I developed an end-to-end tool to quantify and disclose "On-Balance Sheet" emissions (Lending/Investments) and "Off-Balance Sheet" emissions (Underwriting/Facilitation). The simulated portfolio was created using Gemini Flash 3. The prompt used is in the Prompt Used.md file. Refinements to the portfolio, and calculation methods used to derive the required data for the portfolio is in the Portfolio Methodology.docx file
 
 Key Features
 
