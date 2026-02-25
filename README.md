@@ -19,6 +19,8 @@ Key Features
 
 4. Dynamic Executive Dashboard: Automated visuals tracking sector-wise intensity, capital utilization, and transition risk hotspots.
 
+
+
 Tool Architecture
 
     
@@ -33,6 +35,8 @@ Tool Architecture
     01_Executive_Summary: Integrated view of Total Portfolio WACI and "Off-Balance Sheet" climate risk.
 
     06_Technical_Appendix: Proxy-based estimation calcualations
+
+
 
 Methodology & Assumptions
 
