@@ -3,6 +3,9 @@
 
 Financed & Facilitated Emissions Tool - https://github.com/pranav-yathiraj/PCAF-Project/blob/main/Financed_Facilitated_Emissions_Tool.xlsx
 
+The Tool follows the PCAF Standards https://carbonaccountingfinancials.com/standard
+It also references the CEDA Emissions Database https://watershed.com/solutions/ceda
+
 Project Overview
 
 This project simulates a $616B global bank portfolio to analyze carbon exposure across both lending and capital markets activities. Using PCAF (Partnership for Carbon Accounting Financials) standards, I developed an end-to-end tool to quantify and disclose "On-Balance Sheet" emissions (Lending/Investments) and "Off-Balance Sheet" emissions (Underwriting/Facilitation).
