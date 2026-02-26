@@ -8,13 +8,15 @@ The Tool follows the [PCAF Standards](https://carbonaccountingfinancials.com/en/
 It also references the [CEDA Emissions Database](https://carbonaccountingfinancials.com/en/standard)
 <br/>
 <br/>
+
 ## Project Overview
 
 This project simulates a $616B global bank portfolio to analyze carbon exposure across both lending and capital markets activities. Using PCAF (Partnership for Carbon Accounting Financials) standards, I developed an end-to-end tool to quantify and disclose "On-Balance Sheet" emissions (Lending/Investments) and "Off-Balance Sheet" emissions (Underwriting/Facilitation). The simulated portfolio was created using Gemini Flash 3. The prompt used is in the [Prompt Used](Prompt%20Used.md) file. Refinements to the portfolio, and calculation methods used to derive the required data for the portfolio is in the [Technical Appendix](Technical%20Appendix.docx) file
 
 <br/>
 <br/>
-Key Features
+
+### Key Features
 
 1. Dual-Scope GHG Accounting:
   - Financed Emissions: Analysis of $616B in funded loans using WACI (tCO2​e/$1M) and absolute footprinting.
@@ -28,6 +30,7 @@ Key Features
 
 <br/>
 <br/>
+
 ## Tool Architecture
 
     
@@ -55,6 +58,7 @@ Key Features
 3. Audit Trail: Every estimation relies on the Technical Appendix, ensuring that proxy-based "Score 4/5" data is transparently disclosed.
 <br/>
 <br/>
+
 # Roadmap
 
 - [x] Financed Emissions Calculator
