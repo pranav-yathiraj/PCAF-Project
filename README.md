@@ -1,14 +1,14 @@
 # PCAF-Projects
  
 
-Financed & Facilitated Emissions Tool - [Link](Financed_Facilitated_Emissions_Tool.xlsx)
+# Financed & Facilitated Emissions Tool - [Link](Financed_Facilitated_Emissions_Tool.xlsx)
 <br/>
 The Tool follows the [PCAF Standards](https://carbonaccountingfinancials.com/en/standard)
 <br/>
 It also references the [CEDA Emissions Database](https://carbonaccountingfinancials.com/en/standard)
 <br/>
 <br/>
-Project Overview
+## Project Overview
 
 This project simulates a $616B global bank portfolio to analyze carbon exposure across both lending and capital markets activities. Using PCAF (Partnership for Carbon Accounting Financials) standards, I developed an end-to-end tool to quantify and disclose "On-Balance Sheet" emissions (Lending/Investments) and "Off-Balance Sheet" emissions (Underwriting/Facilitation). The simulated portfolio was created using Gemini Flash 3. The prompt used is in the [Prompt Used](Prompt%20Used.md) file. Refinements to the portfolio, and calculation methods used to derive the required data for the portfolio is in the [Technical Appendix](Technical%20Appendix.docx) file
 
@@ -20,15 +20,15 @@ Key Features
   - Financed Emissions: Analysis of $616B in funded loans using WACI (tCO2​e/$1M) and absolute footprinting.
   - Facilitated Emissions: (Upcoming) Calculation of emissions associated with debt and equity underwriting, applying the PCAF 33% weighting factor for capital market activities.
 
-2. Carbon Overhang & Risk Delta: Identifies "Shadow Footprints" by calculating the gap between realized and committed capital, highlighting sectors like Mortgages (114% Delta) as high-volatility risks.
+2. Carbon Overhang & Risk Delta: Identifies "Shadow Footprints" by calculating the gap between realized and committed capital, highlighting sectors with high-volatility risks.
 
 3. Data Integrity Engine: Implements PCAF Data Quality Scores (1-5) to provide a "Confidence Score" for all reported figures.
 
-4. Dynamic Executive Dashboard: Automated visuals tracking sector-wise intensity, capital utilization, and transition risk hotspots.
+4. Dynamic Executive Dashboard: Automated visuals tracking sector-wise intensities, asset class specific intensities, capital utilization, and transition risk hotspots.
 
 <br/>
 <br/>
-Tool Architecture
+## Tool Architecture
 
     
     02_Firm_Parameters: Master logic, sector mapping, and Facilitation weighting factors.
@@ -46,10 +46,17 @@ Tool Architecture
 <br/>
 <br/>
 
-Methodology & Assumptions
+## Methodology & Assumptions
 
 1. Normalization: All WACI metrics are reported in tCO2​e/$1M to align with international financial reporting standards.
 
-2. Prudential Approach: The tool assumes a 100% drawdown scenario for committed lines to stress-test the bank's Net Zero alignment.
+2. Conservative Approach: The tool assumes a 100% drawdown scenario for committed lines to stress-test the bank's Net Zero alignment. The tool also calculates current drawdown 
 
 3. Audit Trail: Every estimation relies on the Technical Appendix, ensuring that proxy-based "Score 4/5" data is transparently disclosed.
+<br/>
+<br/>
+# Roadmap
+
+- [x] Financed Emissions Calculator
+- [ ] Facilitated Emissions Calculator
+- [ ] Avoided Emissions Calculator
